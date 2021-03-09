@@ -1,0 +1,6869 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Grimm 2006",
+      "Seed": 308035765,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "BlackAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 44.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Huang 2019",
+      "Seed": 504328984,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Asian_Tanaka_1996",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.2,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 62.3,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 164.2,
+          "Unit": "cm"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|SmallIntestine|Small intestinal transit time",
+          "Value": 4.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Thyrum 2000",
+      "Seed": 364426468,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 49.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00039687350455
+            },
+            {
+              "Name": "Gonads",
+              "Value": 4.5940341362E-05
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0018822778753
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0002131121391
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1199553358
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C9"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 3.84,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 104.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041810344828
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1681034483
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1620689655
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5379310345
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A5"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.04,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "American",
+      "Seed": 369695265,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "MexicanAmericanWhite_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Non-pregnant",
+      "Seed": 1211601828,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Asian",
+      "Seed": 555818859,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Asian_Tanaka_1996",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "White American",
+      "Seed": 1754410546,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Huang 2019",
+      "Seed": 564024625,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 30,
+        "Age": {
+          "Min": 18.0,
+          "Max": 43.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 46.5,
+          "Max": 76.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 150.0,
+          "Max": 179.0,
+          "Unit": "cm"
+        },
+        "Individual": {
+          "Name": "Huang 2019",
+          "Seed": 504328984,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "Asian_Tanaka_1996",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 27.2,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 62.3,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 164.2,
+              "Unit": "cm"
+            }
+          },
+          "Parameters": [
+            {
+              "Path": "Organism|SmallIntestine|Small intestinal transit time",
+              "Value": 4.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ],
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 564028125,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 564028140,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 564028140,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 564028140,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 564028140,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Li 2004",
+      "Seed": 555882406,
+      "Settings": {
+        "NumberOfIndividuals": 200,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 18.0,
+          "Max": 45.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 41.0,
+          "Max": 77.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Asian",
+          "Seed": 555818859,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "Asian_Tanaka_1996",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 555889250,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 555889265,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 555889281,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 555889281,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 555889281,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Winter2008",
+      "Seed": 560682765,
+      "Settings": {
+        "NumberOfIndividuals": 200,
+        "ProportionOfFemales": 30,
+        "Age": {
+          "Min": 18.0,
+          "Max": 45.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 24.0,
+          "Max": 33.6,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "White American",
+          "Seed": 560325234,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "WhiteAmerican_NHANES_1997",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 560695312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 560695328,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 560695328,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 560695328,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 560695343,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Li 2014",
+      "Seed": 563190312,
+      "Settings": {
+        "NumberOfIndividuals": 200,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 18.0,
+          "Max": 60.0,
+          "Unit": "year(s)"
+        },
+        "BMI": {
+          "Min": 20.0,
+          "Max": 27.0,
+          "Unit": "kg/m²"
+        },
+        "Individual": {
+          "Name": "Asian",
+          "Seed": 555818859,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "Asian_Tanaka_1996",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 563201156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 563201156,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 563201171,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 563201171,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 563201187,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Winter 2008 children",
+      "Seed": 1756158750,
+      "Settings": {
+        "NumberOfIndividuals": 500,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 10.0,
+          "Max": 17.0,
+          "Unit": "year(s)"
+        },
+        "Individual": {
+          "Name": "American",
+          "Seed": 369695265,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "MexicanAmericanWhite_NHANES_1997",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 1756177296,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 1756177296,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 1756177312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 1756177312,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 1756177328,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "McConville 2000",
+      "Seed": 178868828,
+      "Settings": {
+        "NumberOfIndividuals": 500,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 12.3,
+          "Max": 15.9,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 48.2,
+          "Max": 95.5,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "White American",
+          "Seed": 1754410546,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 37.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 178882531,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 178882546,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 178882562,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 178882562,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6|t1/2 (liver)",
+          "Seed": 178882578,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Quetiapine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.3057008256,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2019-12-17 17:12"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu_plasma",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.17
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.43,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.93,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 3.46,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "fitted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.17
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.13,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "fit",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 2.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 51.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2019-11-20 11:14"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 40.4800209148,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2019-12-17 17:12"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "fit",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 21.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2019-11-20 11:14"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 20.4324540619,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2019-12-17 17:12"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 384.0,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "XR tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 4.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.2
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "25 mg single",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 25.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Grimm2006 multidose",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "day(s)"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 25.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 2.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 50.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 2.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 2.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 150.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 2.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 5",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 300.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "200 mg single",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Winter 2008",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 5.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "200mg b.i.d 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "200mg b.i.d 3d",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 3.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "400mg b.i.d 5times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 50.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "300mg single",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 300.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "300mg q.d 5d",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 300.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 5.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "600mg q.d 5d",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 600.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 5.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Findling 2006",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 75.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 3.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "400mg b.i.d 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "100 mg b.i.d 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 48.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "150mg b.i.d. 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 150.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "125mg b.i.d. 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 125.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "100mg b.i.d. 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "75mg b.i.d. 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 75.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "175mg b.i.d 4times",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 175.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 2.0,
+          "Unit": "day(s)",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Grimm 2006 multidose",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Grimm2006 multidose"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 205.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Grimm2006 multidose|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Grimm 2006",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Grimm2006 multidose",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Grimm 2006 multidose-Quetiapine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Grimm 2006 multidose|Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Grimm2006 multidose-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+              "X": "Grimm2006 multidose|time",
+              "Y": "Grimm2006 multidose|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 18,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Quetiapine\nGrimm 2006 multidose\n2020-05-07 18:36"
+        }
+      ]
+    },
+    {
+      "Name": "25 mg single dose",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Thyrum 2000-1",
+        "fraction 2D6",
+        "fraction 3A4",
+        "Thyrum 2000-2",
+        "Grimm2006"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|25 mg single|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 2' on 2019-12-17 17:12"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+        "Organism|Kidney|Urine|Quetiapine|Fraction excreted to urine",
+        "Organism|Quetiapine-CYP3A4-fit Metabolite|Total fraction of dose-Quetiapine",
+        "Organism|Quetiapine-CYP2D6-fit Metabolite|Total fraction of dose-Quetiapine"
+      ],
+      "Individual": "Hispanic American",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "25 mg single",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "25 mg single dose-Quetiapine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "25 mg single dose|Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "25 mg single dose-Quetiapine-CYP2D6-fit Metabolite-Organism-Total fraction of dose-Quetiapine",
+              "X": "Time",
+              "Y": "25 mg single dose|Organism|Quetiapine-CYP2D6-fit Metabolite|Total fraction of dose-Quetiapine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "25 mg single dose-Quetiapine-CYP3A4-fit Metabolite-Organism-Total fraction of dose-Quetiapine",
+              "X": "Time",
+              "Y": "25 mg single dose|Organism|Quetiapine-CYP3A4-fit Metabolite|Total fraction of dose-Quetiapine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 10,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "fraction 2D6-Quetiapine-Peripheral Venous Blood-Plasma-fraction",
+              "X": "fraction 2D6|time",
+              "Y": "fraction 2D6|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|fraction",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "fraction 3A4-Quetiapine-Peripheral Venous Blood-Plasma-fraction",
+              "X": "fraction 3A4|time",
+              "Y": "fraction 3A4|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|fraction",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Thyrum 2000-1-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+              "X": "Thyrum 2000-1|time",
+              "Y": "Thyrum 2000-1|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Thyrum 2000-2-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+              "X": "Thyrum 2000-2|time",
+              "Y": "Thyrum 2000-2|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Grimm2006-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+              "X": "Grimm2006|time",
+              "Y": "Grimm2006|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Quetiapine\n25 mg single dose\n2020-06-04 10:40"
+        }
+      ]
+    },
+    {
+      "Name": "Li 2004",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Li 2004"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 85.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 5.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200mg b.i.d 3d|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Li 2004",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "200mg b.i.d 3d",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Li2004-Quetiapine-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#4F81BD",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Li 2004"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Li 2004-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+                "Path": "Li 2004|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Quetiapine\nLi2004\n2020-06-04 09:47"
+        }
+      ]
+    },
+    {
+      "Name": "Winter 2008",
+      "Model": "4Comp",
+      "ObservedData": [
+        "winter2008"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 73.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 5.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg b.i.d 5times|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg b.i.d 5times|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg b.i.d 5times|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg b.i.d 5times|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg b.i.d 5times|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Winter2008",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg b.i.d 5times",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Li2004-Quetiapine-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#9BBB59",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "winter2008"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "winter2008-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+                "Path": "winter2008|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "Min": 41.7257772531,
+            "Max": 55.9867768595,
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "Min": 680.097723484,
+            "Max": 943.8356582181,
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Quetiapine\nWinter2008\n2020-06-04 10:53"
+        }
+      ]
+    },
+    {
+      "Name": "Li 2014",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Li 2014"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 5.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|300mg single|XR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Li 2014",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "300mg single",
+            "Formulations": [
+              {
+                "Name": "XR tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Li2004-Quetiapine-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#9BBB59",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Li 2014"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Li 2014-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+                "Path": "Li 2014|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+                "CurveOptions": {
+                  "Color": "#0000FF",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Quetiapine\nLi2014\n2020-06-04 11:33"
+        }
+      ]
+    },
+    {
+      "Name": "Li 2014 300mg multidose",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Li 2014 multidose 300mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 125.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 5.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|300mg q.d 5d|XR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg q.d 5d|XR tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg q.d 5d|XR tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg q.d 5d|XR tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300mg q.d 5d|XR tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Li 2014",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "300mg q.d 5d",
+            "Formulations": [
+              {
+                "Name": "XR tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Li2004-Quetiapine-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#9BBB59",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Li 2014 multidose 300mg"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Li 2014 multidose-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+                "Path": "Li 2014 multidose 300mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Quetiapine-2\nLi 2014 multidose\n2020-06-05 09:28"
+        }
+      ]
+    },
+    {
+      "Name": "Li 2014 600mg multidose",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Li 2014 multidose 600mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 125.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 5.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|600mg q.d 5d|XR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600mg q.d 5d|XR tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600mg q.d 5d|XR tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600mg q.d 5d|XR tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600mg q.d 5d|XR tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Quetiapine|P (blood cells->plasma)",
+          "Value": 2.8767841928E-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Li 2014",
+      "Compounds": [
+        {
+          "Name": "Quetiapine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-fit",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Renal Clearances-fitted",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "600mg q.d 5d",
+            "Formulations": [
+              {
+                "Name": "XR tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Li2004-Quetiapine-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#9BBB59",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "GeometricStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Li 2014 multidose 600mg"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Li 2014 multidose 600mg-Quetiapine-Peripheral Venous Blood-Plasma-conc.",
+                "Path": "Li 2014 multidose 600mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc.",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Quetiapine\nLi 2014 600mg multidose\n2020-06-11 09:11"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "Parameter Identification",
+      "Simulations": [
+        "25 mg single dose"
+      ],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Levenberg - Marquardt (MPFit)",
+          "Properties": [
+            {
+              "Name": "ftol",
+              "Value": 0.001
+            },
+            {
+              "Name": "xtol",
+              "Value": 1E-06
+            },
+            {
+              "Name": "gtol",
+              "Value": 1E-10
+            },
+            {
+              "Name": "stepfactor",
+              "Value": 100.0
+            },
+            {
+              "Name": "maxiter",
+              "Value": 200
+            },
+            {
+              "Name": "maxfev",
+              "Value": 0
+            },
+            {
+              "Name": "epsfcn",
+              "Value": 1E-09
+            }
+          ]
+        }
+      },
+      "OutputMappings": [
+        {
+          "Scaling": "Linear",
+          "Path": "25 mg single dose|Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Grimm2006"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "25 mg single dose|Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Thyrum 2000-1"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "25 mg single dose|Organism|PeripheralVenousBlood|Quetiapine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Thyrum 2000-2"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "25 mg single dose|Organism|Quetiapine-CYP2D6-fit Metabolite|Total fraction of dose-Quetiapine",
+          "ObservedData": "fraction 2D6"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "25 mg single dose|Organism|Quetiapine-CYP3A4-fit Metabolite|Total fraction of dose-Quetiapine",
+          "ObservedData": "fraction 3A4"
+        }
+      ],
+      "IdentificationParameters": [
+        {
+          "Name": "Lipophilicity",
+          "Scaling": "Linear",
+          "LinkedParameters": [
+            "25 mg single dose|Quetiapine|Lipophilicity"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 2.3057008256,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 2.09,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 2.81,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "P (blood cells->plasma)",
+          "Scaling": "Linear",
+          "LinkedParameters": [
+            "25 mg single dose|Quetiapine|P (blood cells->plasma)"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 2.8767841928E-05,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.0,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 0.00037695382791,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "kcat",
+          "Scaling": "Linear",
+          "LinkedParameters": [
+            "25 mg single dose|Quetiapine-CYP2D6-fit|kcat"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 20.4324540619,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.0,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 323.3508098082,
+              "Unit": "1/min"
+            }
+          ]
+        },
+        {
+          "Name": "kcat 1",
+          "Scaling": "Linear",
+          "LinkedParameters": [
+            "25 mg single dose|Quetiapine-CYP3A4-fit|kcat"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 40.4800209148,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.0,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 634.926037509,
+              "Unit": "1/min"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Grimm2006",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Grimm2006\\Grimm2006.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Grimm2006"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Grimm2006|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-09-21T09:53:19.3171397+08:00",
+            "Source": "Grimm2006.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            23.1611748,
+            45.6689644,
+            45.3139458,
+            43.26315,
+            38.85941,
+            29.04164,
+            15.12605,
+            5.84647369
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Grimm2006|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-09-21T09:53:19.3171397+08:00",
+          "Source": "Grimm2006.Sheet1.time"
+        },
+        "Values": [
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          5.0,
+          8.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "fraction 3A4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Grimm2006\\fraction metabolized.xlsx.CYP3A4"
+        },
+        {
+          "Name": "File",
+          "Value": "fraction metabolized"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "CYP3A4"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "fraction",
+          "QuantityInfo": {
+            "Name": "fraction",
+            "Path": "fraction 3A4|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|fraction"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-09-23T11:03:10.1090131+08:00",
+            "Source": "fraction metabolized.CYP3A4.fraction",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            0.9
+          ],
+          "Dimension": "Dimensionless"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "fraction 3A4|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-09-23T11:03:10.1090131+08:00",
+          "Source": "fraction metabolized.CYP3A4.time"
+        },
+        "Values": [
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "fraction 2D6",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Grimm2006\\fraction metabolized.xlsx.CYP2D6"
+        },
+        {
+          "Name": "File",
+          "Value": "fraction metabolized"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "CYP2D6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "fraction",
+          "QuantityInfo": {
+            "Name": "fraction",
+            "Path": "fraction 2D6|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|fraction"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-09-23T11:03:10.1090131+08:00",
+            "Source": "fraction metabolized.CYP2D6.fraction",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            0.1
+          ],
+          "Dimension": "Dimensionless"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "fraction 2D6|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-09-23T11:03:10.1090131+08:00",
+          "Source": "fraction metabolized.CYP2D6.time"
+        },
+        "Values": [
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "fraction 2C9",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Grimm2006\\fraction metabolized.xlsx.CYP2C9"
+        },
+        {
+          "Name": "File",
+          "Value": "fraction metabolized"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "CYP2C9"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "fraction",
+          "QuantityInfo": {
+            "Name": "fraction",
+            "Path": "fraction 2C9|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|fraction"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-09-23T11:03:10.1090131+08:00",
+            "Source": "fraction metabolized.CYP2C9.fraction",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            0.04
+          ],
+          "Dimension": "Dimensionless"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "fraction 2C9|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-09-23T11:03:10.1090131+08:00",
+          "Source": "fraction metabolized.CYP2C9.time"
+        },
+        "Values": [
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Grimm2006 multidose",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Grimm2006\\Grimm2006 multidose.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Grimm2006 multidose"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Grimm2006 multidose|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-19T10:54:08.2253483+08:00",
+            "Source": "Grimm2006 multidose.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            178.616348,
+            223.899384,
+            437.73584,
+            651.5723,
+            759.7485,
+            807.5472,
+            769.81134,
+            706.9182,
+            681.761,
+            548.4277,
+            379.874237,
+            249.0566,
+            166.037735,
+            128.3019
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Grimm2006 multidose|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-19T10:54:08.2253483+08:00",
+          "Source": "Grimm2006 multidose.Sheet1.time"
+        },
+        "Values": [
+          192.0,
+          192.25,
+          192.5,
+          192.75,
+          193.0,
+          193.5,
+          194.0,
+          194.5,
+          195.0,
+          196.0,
+          198.0,
+          200.0,
+          202.0,
+          204.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Huang 2019",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Huang 2019\\Huang 2019.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Huang 2019"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Huang 2019|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-12T20:42:13.4567069+08:00",
+            "Source": "Huang 2019.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            8.62,
+            60.3800049,
+            87.58,
+            95.53,
+            102.149994,
+            92.84,
+            193.04,
+            160.49,
+            141.89,
+            131.25,
+            117.29,
+            98.69,
+            82.71,
+            48.78,
+            24.7200012,
+            5.89
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Huang 2019|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-12T20:42:13.4567069+08:00",
+          "Source": "Huang 2019.Sheet1.time"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          12.0,
+          16.0,
+          24.0,
+          36.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Thyrum 2000-1",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Thyrum 2000\\Thyrum 2000-1.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Thyrum 2000-1"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Thyrum 2000-1|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-17T15:39:39.1123562+08:00",
+            "Source": "Thyrum 2000-1.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            24.3799629,
+            48.94457,
+            72.20597,
+            68.7314453,
+            56.5402222,
+            42.8593178,
+            40.1127434,
+            19.9200172,
+            13.03213,
+            6.55978
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Thyrum 2000-1|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-17T15:39:39.1123562+08:00",
+          "Source": "Thyrum 2000-1.Sheet1.time"
+        },
+        "Values": [
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Thyrum 2000-2",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Thyrum 2000\\Thyrum 2000-2.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Thyrum 2000-2"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Thyrum 2000-2|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-17T15:48:03.1856033+08:00",
+            "Source": "Thyrum 2000-2.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            13.903842,
+            40.76985,
+            42.12702,
+            43.53056,
+            33.1824722,
+            28.3011112,
+            15.1762972,
+            9.709979,
+            4.238127
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Thyrum 2000-2|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-17T15:48:03.1856033+08:00",
+          "Source": "Thyrum 2000-2.Sheet1.time "
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Li 2014",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Li2014\\Li2014.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Li2014"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Li 2014|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-06-04T15:17:19.2037103+08:00",
+                "Source": "Li2014.Sheet1.SD",
+                "MolWeight": 384.0
+              },
+              "Values": [
+                8.76,
+                22.14,
+                25.3699989,
+                22.6099987,
+                35.98,
+                40.59,
+                47.51,
+                39.2,
+                40.59,
+                33.67,
+                22.14,
+                14.3,
+                12.92
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Li 2014|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-06-04T15:17:19.2037103+08:00",
+            "Source": "Li2014.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            14.76,
+            162.36,
+            180.35,
+            200.18,
+            226.01,
+            241.700012,
+            228.78,
+            193.73,
+            156.83,
+            118.08,
+            70.57,
+            46.59,
+            37.82
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Li 2014|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-06-04T15:17:19.2037103+08:00",
+          "Source": "Li2014.Sheet1.time "
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "winter2008",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Winter 2008\\winter2008.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "winter2008"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "winter2008|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-06-05T09:36:55.8854306+08:00",
+                "Source": "winter2008.Sheet1.SD",
+                "MolWeight": 384.0
+              },
+              "Values": [
+                63.7,
+                420.800018,
+                484.5,
+                395.3,
+                369.800018,
+                255.0,
+                168.900009,
+                140.2,
+                66.9,
+                35.1000023,
+                35.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "winter2008|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-06-05T09:36:55.8854306+08:00",
+            "Source": "winter2008.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            159.59,
+            504.6,
+            982.31,
+            962.4,
+            827.49,
+            685.95,
+            409.5,
+            221.51001,
+            104.3,
+            53.43,
+            26.89,
+            18.0500011
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "winter2008|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-06-05T09:36:55.8854306+08:00",
+          "Source": "winter2008.Sheet1.time"
+        },
+        "Values": [
+          48.25,
+          48.5,
+          49.0,
+          49.5,
+          50.0,
+          51.0,
+          53.0,
+          56.0,
+          60.0,
+          64.0,
+          68.0,
+          72.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Li 2014 multidose 300mg",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Li 2014\\Li 2014 multidose 300mg.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Li 2014 multidose 300mg"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Li 2014 multidose 300mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-06-05T09:25:04.5222654+08:00",
+                "Source": "Li 2014 multidose 300mg.Sheet1.SD",
+                "MolWeight": 384.0
+              },
+              "Values": [
+                18.3900013,
+                35.2600021,
+                68.98,
+                21.46,
+                23.0,
+                29.13,
+                42.93,
+                36.7899971,
+                36.8,
+                30.66,
+                24.5299988,
+                16.8599987,
+                12.26
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Li 2014 multidose 300mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-06-05T09:25:04.5222654+08:00",
+            "Source": "Li 2014 multidose 300mg.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            92.29,
+            207.26,
+            280.84,
+            308.44,
+            346.76,
+            346.76,
+            383.55,
+            334.5,
+            260.91,
+            202.66,
+            113.75,
+            78.49,
+            58.56
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Li 2014 multidose 300mg|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-06-05T09:25:04.5222654+08:00",
+          "Source": "Li 2014 multidose 300mg.Sheet1.time "
+        },
+        "Values": [
+          96.5,
+          97.0,
+          97.5,
+          98.0,
+          99.0,
+          100.0,
+          102.0,
+          104.0,
+          106.0,
+          108.0,
+          112.0,
+          116.0,
+          120.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Li 2014 multidose 600mg",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Li 2014\\Li 2014 multidose 600mg.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Li 2014 multidose 600mg"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Li 2014 multidose 600mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-06-11T09:15:29.8644586+08:00",
+                "Source": "Li 2014 multidose 600mg.Sheet1.SD",
+                "MolWeight": 384.0
+              },
+              "Values": [
+                17.95,
+                92.3100052,
+                88.47,
+                70.5099945,
+                97.44,
+                93.590004,
+                79.49,
+                67.95,
+                51.29,
+                47.44,
+                34.6200027,
+                26.92,
+                19.2300014
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Li 2014 multidose 600mg|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-06-11T09:15:29.8644586+08:00",
+            "Source": "Li 2014 multidose 600mg.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            86.88,
+            276.59,
+            465.01,
+            432.919983,
+            568.74,
+            464.82,
+            474.92,
+            450.41,
+            392.56,
+            323.18,
+            198.51,
+            132.82,
+            95.33
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Li 2014 multidose 600mg|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-06-11T09:15:29.8644586+08:00",
+          "Source": "Li 2014 multidose 600mg.Sheet1.time "
+        },
+        "Values": [
+          96.5,
+          97.0,
+          97.5,
+          98.0,
+          99.0,
+          100.0,
+          102.0,
+          104.0,
+          106.0,
+          108.0,
+          112.0,
+          116.0,
+          120.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Li 2004",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Administrator\\Desktop\\课题\\Quetiapine\\Li 2004\\Li 2004.csv.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Li 2004"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Quetiapine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "conc.",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Li 2004|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-06-11T08:58:22.8738395+08:00",
+                "Source": "Li 2004.Sheet1.SD",
+                "MolWeight": 384.0
+              },
+              "Values": [
+                65.22,
+                187.82,
+                233.48,
+                221.73999,
+                330.0,
+                229.56,
+                256.949982,
+                199.569992,
+                181.31,
+                161.74,
+                150.0,
+                143.48,
+                71.74
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "conc.",
+            "Path": "Li 2004|ObservedData|Peripheral Venous Blood|Plasma|Quetiapine|conc."
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-06-11T08:58:22.8738395+08:00",
+            "Source": "Li 2004.Sheet1.conc.",
+            "MolWeight": 384.0
+          },
+          "Values": [
+            129.12,
+            185.48999,
+            245.12,
+            327.49,
+            459.78,
+            460.78,
+            493.150024,
+            386.65,
+            335.48,
+            282.14,
+            227.54,
+            156.319992,
+            45.7399979
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time",
+        "QuantityInfo": {
+          "Name": "time",
+          "Path": "Li 2004|time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-06-11T08:58:22.8738395+08:00",
+          "Source": "Li 2004.Sheet1.time"
+        },
+        "Values": [
+          60.0,
+          60.25,
+          60.5,
+          61.0,
+          61.5,
+          62.0,
+          63.0,
+          64.0,
+          65.0,
+          66.0,
+          68.0,
+          72.0,
+          84.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Model verification",
+      "Classifiables": [
+        "Li 2004",
+        "Winter 2008",
+        "Li 2014",
+        "Li 2014 300mg multidose",
+        "Li 2014 600mg multidose"
+      ]
+    },
+    {
+      "Name": "Model development",
+      "Classifiables": [
+        "Grimm 2006 multidose",
+        "25 mg single dose"
+      ]
+    }
+  ]
+}
