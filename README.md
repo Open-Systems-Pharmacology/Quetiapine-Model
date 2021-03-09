@@ -2,7 +2,7 @@
 Pregnant PBPK model of antipsychotic quetiapine.
 
 ## Repository files
-Within this repository, we distribute a whole-body PBPK model of quetiapine for pregnant women. This work was conducted on a 27-compartment pregnancy model structure provided by Dallmann et al[1]. The detailed information on model development and evaluation was described in [2]. 
+Within this repository, we distribute a whole-body PBPK model of quetiapine for pregnant women. This work was conducted on a 27-compartment pregnancy model structure provided by Dallmann et al [1]. The detailed information on model development and evaluation was described in [2]. 
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
